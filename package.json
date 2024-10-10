@@ -1,0 +1,25 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "Testes criados usando Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "npx playwright test --headed --browser=chromium",
+    "test:firefox": "npx playwright test --headed --browser=firefox",
+    "test:safari": "npx playwright test --headed --browser=webkit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas0headshot/playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucas0headshot/playwright/issues"
+  },
+  "homepage": "https://github.com/lucas0headshot/playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0"
+  }
+}
